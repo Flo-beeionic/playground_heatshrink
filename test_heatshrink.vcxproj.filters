@@ -21,6 +21,9 @@
     <ClCompile Include="heatshrink_encoder.c">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="heatshrink_decoder.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="heatshrink_common.h">
@@ -30,6 +33,9 @@
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="heatshrink_encoder.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="heatshrink_decoder.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>

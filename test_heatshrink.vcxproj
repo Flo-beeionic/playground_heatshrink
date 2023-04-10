@@ -127,12 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="heatshrink_decoder.c" />
     <ClCompile Include="heatshrink_encoder.c" />
     <ClCompile Include="test_heatshrink.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="heatshrink_common.h" />
     <ClInclude Include="heatshrink_config.h" />
+    <ClInclude Include="heatshrink_decoder.h" />
     <ClInclude Include="heatshrink_encoder.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

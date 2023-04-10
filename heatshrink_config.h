@@ -6,9 +6,9 @@ extern "C"
 #endif
 
     /* Should functionality assuming dynamic allocation be used? */
-#ifndef HEATSHRINK_DYNAMIC_ALLOC
-#define HEATSHRINK_DYNAMIC_ALLOC 1
-#endif
+//#ifndef HEATSHRINK_DYNAMIC_ALLOC
+//#define HEATSHRINK_DYNAMIC_ALLOC 1
+///#endif
 
 #if HEATSHRINK_DYNAMIC_ALLOC
     /* Optional replacement of malloc/free */
@@ -17,8 +17,8 @@ extern "C"
 #else
     /* Required parameters for static configuration */
 #define HEATSHRINK_STATIC_INPUT_BUFFER_SIZE 32
-#define HEATSHRINK_STATIC_WINDOW_BITS 8
-#define HEATSHRINK_STATIC_LOOKAHEAD_BITS 4
+#define HEATSHRINK_STATIC_WINDOW_BITS 12
+#define HEATSHRINK_STATIC_LOOKAHEAD_BITS 6
 #endif
 
 /* Turn on logging for debugging. */
