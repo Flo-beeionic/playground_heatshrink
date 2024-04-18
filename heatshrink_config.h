@@ -16,9 +16,9 @@ extern "C"
 #define HEATSHRINK_FREE(P, SZ) free(P)
 #else
     /* Required parameters for static configuration */
-#define HEATSHRINK_STATIC_INPUT_BUFFER_SIZE 32
-#define HEATSHRINK_STATIC_WINDOW_BITS 12
-#define HEATSHRINK_STATIC_LOOKAHEAD_BITS 6
+#define HEATSHRINK_STATIC_INPUT_BUFFER_SIZE 32 //32
+#define HEATSHRINK_STATIC_WINDOW_BITS 9
+#define HEATSHRINK_STATIC_LOOKAHEAD_BITS 4
 #endif
 
 /* Turn on logging for debugging. */
